@@ -103,8 +103,7 @@
         MyLibComponent.prototype.ngOnInit = /**
          * @return {?}
          */
-            function () {
-            };
+            function () { };
         /**
          * @return {?}
          */
@@ -112,13 +111,13 @@
          * @return {?}
          */
             function () {
-                console.log('yes I am in');
+                console.log('Clicked');
             };
         MyLibComponent.decorators = [
             { type: i0.Component, args: [{
                         selector: 'lib-my-lib',
                         template: "<h1>{{ title }}</h1>\n<h2>{{ subtitle }}</h2>\n\n<hr *ngIf=\"title || subtitle\">\n\n<p>{{ content }}</p>\n\n<button (click)=\"handleBtnClick()\">Click me!</button>",
-                        styles: ["\n    :host {\n      text-align: center;\n      background: white;\n      display: block;\n      padding: .45rem .65rem;\n      border-radius: 3px;\n      max-width: 325px;\n      box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);\n    }\nh2 {\n  color: #c85f7f;\n}\n\np {\n  text-align: center;\n}  "]
+                        styles: ["\n      :host {\n        text-align: center;\n        background: white;\n        display: block;\n        padding: 0.45rem 0.65rem;\n        border-radius: 3px;\n        max-width: 325px;\n        box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);\n      }\n      h2 {\n        color: #c85f7f;\n      }\n\n      p {\n        text-align: center;\n      }\n    "]
                     }] }
         ];
         /** @nocollapse */
