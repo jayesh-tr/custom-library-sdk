@@ -1,4 +1,4 @@
-import { OnInit, EventEmitter } from '@angular/core';
+import { OnInit, EventEmitter } from "@angular/core";
 export declare class MyLibComponent implements OnInit {
     title: string;
     subtitle: string;

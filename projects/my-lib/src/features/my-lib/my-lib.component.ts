@@ -1,8 +1,8 @@
-import { Component, OnInit, Input, Output, EventEmitter } from '@angular/core';
+import { Component, OnInit, Input, Output, EventEmitter } from "@angular/core";
 
 @Component({
-  selector: 'lib-my-lib',
-  templateUrl: './my-lib.component.html',
+  selector: "lib-my-lib",
+  templateUrl: "./my-lib.component.html",
   styles: [
     `
       :host {
@@ -30,13 +30,13 @@ export class MyLibComponent implements OnInit {
   @Input()
   subtitle: string;
   @Input()
-  content = '😄';
+  content = "😄";
   @Output() btnClicked = new EventEmitter<boolean>();
   constructor() {}
 
   ngOnInit() {}
 
   handleBtnClick() {
-    console.log('Clicked');
+    console.log("Clicked");
   }
 }

@@ -5,7 +5,7 @@
 /*
  * Public API Surface of my-lib
  */
-export { MyLibService } from './lib/my-lib.service';
-export { MyLibComponent } from './lib/my-lib.component';
-export { MyLibModule } from './lib/my-lib.module';
-//# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJmaWxlIjoicHVibGljLWFwaS5qcyIsInNvdXJjZVJvb3QiOiJuZzovL215LWxpYi8iLCJzb3VyY2VzIjpbInB1YmxpYy1hcGkudHMiXSwibmFtZXMiOltdLCJtYXBwaW5ncyI6Ijs7Ozs7OztBQUlBLDZCQUFjLHNCQUFzQixDQUFDO0FBQ3JDLCtCQUFjLHdCQUF3QixDQUFDO0FBQ3ZDLDRCQUFjLHFCQUFxQixDQUFDIiwic291cmNlc0NvbnRlbnQiOlsiLypcbiAqIFB1YmxpYyBBUEkgU3VyZmFjZSBvZiBteS1saWJcbiAqL1xuXG5leHBvcnQgKiBmcm9tICcuL2xpYi9teS1saWIuc2VydmljZSc7XG5leHBvcnQgKiBmcm9tICcuL2xpYi9teS1saWIuY29tcG9uZW50JztcbmV4cG9ydCAqIGZyb20gJy4vbGliL215LWxpYi5tb2R1bGUnO1xuIl19
+export { MyLibService } from "./features/my-lib/my-lib.service";
+export { MyLibComponent } from "./features/my-lib/my-lib.component";
+export { MyLibModule } from "./features/my-lib/my-lib.module";
+//# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJmaWxlIjoicHVibGljLWFwaS5qcyIsInNvdXJjZVJvb3QiOiJuZzovL215LWxpYi8iLCJzb3VyY2VzIjpbInB1YmxpYy1hcGkudHMiXSwibmFtZXMiOltdLCJtYXBwaW5ncyI6Ijs7Ozs7OztBQUlBLDZCQUFjLGtDQUFrQyxDQUFDO0FBQ2pELCtCQUFjLG9DQUFvQyxDQUFDO0FBQ25ELDRCQUFjLGlDQUFpQyxDQUFDIiwic291cmNlc0NvbnRlbnQiOlsiLypcbiAqIFB1YmxpYyBBUEkgU3VyZmFjZSBvZiBteS1saWJcbiAqL1xuXG5leHBvcnQgKiBmcm9tIFwiLi9mZWF0dXJlcy9teS1saWIvbXktbGliLnNlcnZpY2VcIjtcbmV4cG9ydCAqIGZyb20gXCIuL2ZlYXR1cmVzL215LWxpYi9teS1saWIuY29tcG9uZW50XCI7XG5leHBvcnQgKiBmcm9tIFwiLi9mZWF0dXJlcy9teS1saWIvbXktbGliLm1vZHVsZVwiO1xuXG5cbiJdfQ==
