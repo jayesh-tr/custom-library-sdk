@@ -68,7 +68,7 @@
   "husky": {
     "hooks": {
       "pre-commit": "pretty-quick --staged",
-      "pre-push": "ng test && ng e2e && ng build --aot true"
+      "pre-push": "ng build"
     }
   }
 }
